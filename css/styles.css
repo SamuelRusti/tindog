@@ -1,0 +1,193 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+
+p{
+  color:grey;
+}
+
+/* Headings */
+
+.big-heading{
+  font-family: "Montserrat-Black ";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.section-heading{
+  font-size:2.7rem;
+  line-height: 1.5;
+}
+
+#footer{
+  padding: 7% 15%;
+}
+
+.title-image{
+  width: 24%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 24%;
+}
+
+/* sections */
+
+.white-section{
+  background-color: #fff;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* navigation bar */
+.navbar{
+  padding-bottom:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* Download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.icon{
+  margin-bottom: 1rem;
+    color: #EF8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Feature section */
+
+#features{
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-box{
+  padding: 4.5%;
+}
+
+.feature-title{
+  font-size:1.5rem;
+}
+
+/* testimonial section */
+
+#testimonials{
+  background-color:#EF8172;
+}
+
+.tesimonial-text{
+  font-size:2.7rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+
+#press{
+  background-color:#EF8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* carousel */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size:2.7rem;
+  line-height: 1.5;
+}
+
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.last-title{
+  padding-top: 30px;
+  font-size: 3.5rem;
+  margin:auto 250px;
+  line-height: 1.5;
+}
+
+.last-logo{
+  font-size: 1.5rem;
+  color: black;
+  margin:20px 10px;
+}
+
+.last-logo:hover{
+  color: #ff4c68;
+}
+
+.my-name{
+  color:grey;
+  font-style:italic;
+  text-decoration: none;
+}
+
+.my-name:hover{
+  color:red;
+
+}
